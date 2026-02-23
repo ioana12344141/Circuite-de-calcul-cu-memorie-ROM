@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb 23 14:22:50 2026
+# Process ID: 19976
+# Current directory: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20380 C:\Altele\Laboratoare\AN2 SEM2\CID\CID\test1\Circuite combinationale\1\1.xpr
+# Log file: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/vivado.log
+# Journal file: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1\vivado.jou
+# Running On: Ioana, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 16, Host memory: 33685 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1597.902 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s50csga324-1
+Top: TOP
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2229.730 ; gain = 380.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/TOP.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'rom' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/rom.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/rom.sv:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (7) of module 'rom' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/TOP.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux2.sv:1]
+INFO: [Synth 8-226] default block is never used [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux2.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux2.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sub' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/sub.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'sub' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/sub.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'xor_bw' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/xor_bw.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'xor_bw' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/xor_bw.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'and_bw' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/and_bw.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'and_bw' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/and_bw.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'shl' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/shl.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'shl' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/shl.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux4.sv:1]
+INFO: [Synth 8-226] default block is never used [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux4.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/mux4.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'comp' [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/comp.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'comp' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/comp.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (0#1) [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/TOP.sv:1]
+WARNING: [Synth 8-3848] Net instr in module/entity TOP does not have driver. [C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.srcs/sources_1/new/TOP.sv:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2341.594 ; gain = 492.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2341.594 ; gain = 492.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2341.594 ; gain = 492.828
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2341.594 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2353.883 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2436.758 ; gain = 587.992
+23 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2436.758 ; gain = 838.855
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 23 14:43:57 2026...

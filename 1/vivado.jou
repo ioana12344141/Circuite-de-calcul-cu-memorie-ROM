@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb 23 14:22:50 2026
+# Process ID: 19976
+# Current directory: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20380 C:\Altele\Laboratoare\AN2 SEM2\CID\CID\test1\Circuite combinationale\1\1.xpr
+# Log file: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/vivado.log
+# Journal file: C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1\vivado.jou
+# Running On: Ioana, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 16, Host memory: 33685 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Altele/Laboratoare/AN2 SEM2/CID/CID/test1/Circuite combinationale/1/1.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
